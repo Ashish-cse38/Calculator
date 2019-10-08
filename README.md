@@ -1,2 +1,2 @@
-This is a calculator app made with tkinter.
-Just simple operations like add, subtract, multiply, divide are present in it.
+This is a calculator app made using tkinter.
+Just simple operations like Addition, Subtraction, Multiplication, Division are present here.
