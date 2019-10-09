@@ -2,7 +2,7 @@ from tkinter import *
 
 window=Tk()
 
-window.wm_title("Calculator")
+window.wm_title("Calculator App")
 
 def calcAdd():
   result=(float(num1_value.get())+float(num2_value.get()))
