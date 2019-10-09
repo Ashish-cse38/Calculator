@@ -4,7 +4,7 @@ window=Tk()
 
 window.wm_title("Calculator")
 
-def calc_add():
+def calcAdd():
   result=(float(num1_value.get())+float(num2_value.get()))
   t1.delete(1.0,END)
   t1.insert(END,result)
@@ -41,7 +41,8 @@ num2=Entry(window,textvariable=num2_value)
 num2.grid(row=1,column=1)
 
 
-b1=Button(window,text="ADD",command=calc_add)
+b1=Button(window,text="
+          ",command=calcAdd)
 b1.grid(row=2,column=0)
 
 b1=Button(window,text="SUBTRACT",command=calc_sub)
